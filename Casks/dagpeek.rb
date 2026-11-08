@@ -1,6 +1,6 @@
 cask "dagpeek" do
-  version "1.3.3"
-  sha256 "ef8ca10740d17c9ff020402e187ed93f46be7b067db6ef859c2ee22a4b261b0d"
+  version "1.4.0"
+  sha256 "84d777f60bf0735d7cf7332dbe3c44244266b855c59ade22a6327ecf70de6b73"
 
   url "https://github.com/ailio-technologies-inc/dagpeek/releases/download/v#{version}/Dagpeek-mac.dmg"
   name "Dagpeek"
