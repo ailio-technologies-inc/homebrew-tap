@@ -1,6 +1,6 @@
 cask "dagpeek" do
-  version "1.1.0"
-  sha256 "c3dfc8f471def11a3a9b9330abe157e29fe4dc20327a69d2c457a4130d30bfcd"
+  version "1.2.0"
+  sha256 "b38c30675559ecc8ac8c770f7a47898ec02440e970cf80fc0bbe3b1942f8279a"
 
   url "https://github.com/ailio-technologies-inc/dagpeek/releases/download/v#{version}/Dagpeek-mac.dmg"
   name "Dagpeek"
@@ -13,7 +13,7 @@ cask "dagpeek" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Dagpeek.app"
   binary "#{appdir}/Dagpeek.app/Contents/MacOS/dagpeek"
