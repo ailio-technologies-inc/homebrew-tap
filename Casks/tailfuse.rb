@@ -12,7 +12,7 @@ cask "tailfuse" do
     strategy :github_latest
   end
 
-  depends_on macos: :catalina
+  depends_on macos: :ventura
 
   app "Tailfuse.app"
 
