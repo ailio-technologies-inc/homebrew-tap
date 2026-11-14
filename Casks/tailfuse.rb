@@ -1,6 +1,6 @@
 cask "tailfuse" do
-  version "0.1.17"
-  sha256 "4796542bd110a61e3f2d851e96acad6bfc0d43378d94fe7499e33c76834b9308"
+  version "0.1.18"
+  sha256 "6e7146f3551553e98929f18f89ba0ab7f061363013934db823d1bba656ec1dc8"
 
   url "https://github.com/ailio-technologies-inc/tailfuse/releases/download/v#{version}/tailfuse-app-v#{version}-macos-universal.zip"
   name "Tailfuse"
